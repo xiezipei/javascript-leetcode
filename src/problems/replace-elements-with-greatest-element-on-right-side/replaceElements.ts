@@ -1,4 +1,4 @@
-function replaceElements(arr: number[]): number[] {
+export function replaceElements(arr: number[]): number[] {
     let brr = [];
     while(arr.length > 1) {
         arr.shift();
@@ -7,4 +7,4 @@ function replaceElements(arr: number[]): number[] {
     }
     brr.push(-1);
     return brr;
-};
+}

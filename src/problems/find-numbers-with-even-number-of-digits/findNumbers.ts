@@ -1,4 +1,4 @@
-function findNumbers(nums: number[]): number {
+export function findNumbers(nums: number[]): number {
     let count = 0;
     for (let i = 0; i < nums.length; i++) {
         const str = nums[i].toString();
@@ -7,4 +7,4 @@ function findNumbers(nums: number[]): number {
         }
     }
     return count;
-};
+}

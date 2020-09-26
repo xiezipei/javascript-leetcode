@@ -1,4 +1,4 @@
-function containsDuplicate(nums: number[]): boolean {
+export function containsDuplicate(nums: number[]): boolean {
     let result = false;
     for (let i = 0; i < nums.length; i++) {
         let item = nums[i];
@@ -7,4 +7,4 @@ function containsDuplicate(nums: number[]): boolean {
         }
     }
     return result;
-};
+}
