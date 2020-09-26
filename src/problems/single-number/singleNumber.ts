@@ -1,4 +1,4 @@
-function singleNumber(nums: number[]): number {
+export function singleNumber(nums: number[]): number {
     let target: number = 0;
     nums.map(item => {
         let count = 0;
@@ -12,4 +12,4 @@ function singleNumber(nums: number[]): number {
         }
     });
     return target;
-};
+}

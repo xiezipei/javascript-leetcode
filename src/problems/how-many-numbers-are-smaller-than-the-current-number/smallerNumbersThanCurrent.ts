@@ -1,4 +1,4 @@
-function smallerNumbersThanCurrent(nums: number[]): number[] {
+export function smallerNumbersThanCurrent(nums: number[]): number[] {
     return nums.map((item) => {
         let count = 0;
         for (let i = 0; i < nums.length; i++) {
@@ -8,4 +8,4 @@ function smallerNumbersThanCurrent(nums: number[]): number[] {
         }
         return count;
     })
-};
+}

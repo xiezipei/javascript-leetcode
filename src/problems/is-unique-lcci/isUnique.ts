@@ -1,4 +1,4 @@
-function isUnique(astr: string): boolean {
+export function isUnique(astr: string): boolean {
     const astrArr = astr.split('');
     const astrArrNoRepeat = [...new Set(astrArr)];
     if (astrArr.length !== astrArrNoRepeat.length) {
@@ -6,4 +6,4 @@ function isUnique(astr: string): boolean {
     } else {
         return true;
     }
-};
+}
