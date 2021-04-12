@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "lib": ["ES2018"],
+        "target": "ES2018",
+
+        "experimentalDecorators": true,
+
+        "strict": true,
+        "alwaysStrict": true,
+
+        // For tests
+        "resolveJsonModule": true,
+
+        // Linting
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+
+        // Library
+        "preserveConstEnums": true,
+        "declaration": true,
+        "sourceMap": true,
+        "isolatedModules": true,
+
+        // Output
+        "outDir": "dist/",
+        "rootDir": "src/",
+        "newLine": "LF"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": [
+        "src/test/converter/**/*.ts",
+        "src/test/converter2/**/*.ts",
+        "src/test/renderer/specs",
+        "src/test/.dot/**/*.ts",
+        "src/test/module/**/*.ts"
+    ]
+}
