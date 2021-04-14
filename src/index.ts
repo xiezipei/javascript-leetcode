@@ -1,3 +1,5 @@
+export { twoSum } from './problems/easy/two-sum/twoSum.js';
+
 export { containsDuplicate } from './problems/easy/contains-duplicate/containsDuplicate';
 export { defangIPaddr } from './problems/easy/defanging-an-ip-address/defangIPaddr';
 export { findNumbers } from './problems/easy/find-numbers-with-even-number-of-digits/findNumbers';
@@ -16,5 +18,4 @@ export { restoreString } from './problems/easy/shuffle-string/restoreString';
 export { singleNumber } from './problems/easy/single-number/singleNumber';
 // export {} from './problems/easy/squares-of-a-sorted-array/sortedSquares.js';
 export { toLowerCase } from './problems/easy/to-lower-case/toLowerCase';
-// export {} from './problems/easy/two-sum/twoSum.js';
 export { reverseLeftWords } from './problems/easy/zuo-xuan-zhuan-zi-fu-chuan-lcof/reverseLeftWords';
