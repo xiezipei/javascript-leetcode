@@ -13,5 +13,8 @@ npm run eslint
 npm run eslint:fix
 
 # generate document
-npm run doc:build
+npm run docs:build
+
+# deploy document
+npm run docs:deploy
 ```
