@@ -4,11 +4,11 @@
  * @problem
  * https://leetcode-cn.com/problems/is-unique-lcci/
  * 
- * @param astr 字符串
+ * @param str 字符串
  * @returns 布尔值
  */
-export function isUnique(astr: string): boolean {
-    const astrArr = astr.split('');
-    const astrArrNoRepeat = [...new Set(astrArr)];
-    return astrArr.length === astrArrNoRepeat.length
+export function isUnique(str: string): boolean {
+    const strArr = str.split('');   // 字符串转为数组
+    const strArrNoRepeat = [...new Set(strArr)]; // 数组去重（转为set再转为数组）得到新数组
+    return strArr.length === strArrNoRepeat.length; // 对比数组与去重后的数组得到结果
 }
