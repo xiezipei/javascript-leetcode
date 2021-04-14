@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "./node_modules/.bin/eslint src/**/*.ts",
-    "eslint-fix": "./node_modules/.bin/eslint src/**/*.ts --fix",
+    "eslint:fix": "./node_modules/.bin/eslint src/**/*.ts --fix",
     "docs:build": "typedoc --out docs src/index.ts"
   },
   "repository": {
