@@ -1,9 +1,14 @@
+/**
+ * 判定字符是否唯一
+ * 
+ * @problem
+ * https://leetcode-cn.com/problems/is-unique-lcci/
+ * 
+ * @param astr 字符串
+ * @returns 布尔值
+ */
 export function isUnique(astr: string): boolean {
     const astrArr = astr.split('');
     const astrArrNoRepeat = [...new Set(astrArr)];
-    if (astrArr.length !== astrArrNoRepeat.length) {
-        return false;
-    } else {
-        return true;
-    }
+    return astrArr.length === astrArrNoRepeat.length
 }
