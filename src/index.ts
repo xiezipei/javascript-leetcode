@@ -1,6 +1,7 @@
 export { twoSum } from './problems/easy/two-sum/twoSum';
-export { plusOne } from './problems/easy/plus-one/plusOne';
 export { sortedSquares } from './problems/easy/squares-of-a-sorted-array/sortedSquares';
+
+export { plusOne } from './problems/easy/plus-one/plusOne';
 export { containsDuplicate } from './problems/easy/contains-duplicate/containsDuplicate';
 export { defangIPaddr } from './problems/easy/defanging-an-ip-address/defangIPaddr';
 export { findNumbers } from './problems/easy/find-numbers-with-even-number-of-digits/findNumbers';
