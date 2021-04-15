@@ -1,3 +1,7 @@
+/** 工具方法 */
+export { getArrayUnique } from './utils/utils';
+
+/** 题解方法 */
 export { twoSum } from './problems/easy/two-sum/twoSum';
 export { sortedSquares } from './problems/easy/squares-of-a-sorted-array/sortedSquares';
 export { isUnique } from './problems/easy/is-unique-lcci/isUnique';
