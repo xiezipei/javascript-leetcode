@@ -8,12 +8,12 @@
  * @returns 数字
  */
 export function findNumbers(nums: number[]): number {
-    let count = 0;  // 定义一个计数器变量
+    let count = 0;  // 定义一个计数器
     for (let i = 0; i < nums.length; i++) { // 遍历数组，每次得到元素i
         const str = nums[i].toString(); // 把元素i转为字符串s
         if (str.length % 2 === 0) { // 根据字符串s的长度判断是否为偶数位
             count++;    // 元素为偶数位则计数器加一
         }
     }
-    return count;
+    return count;   // 返回计数器
 }

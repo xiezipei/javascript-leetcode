@@ -5,14 +5,14 @@ export { getArrayUnique } from './utils/utils';
 export { twoSum } from './problems/easy/two-sum/twoSum';
 export { sortedSquares } from './problems/easy/squares-of-a-sorted-array/sortedSquares';
 export { isUnique } from './problems/easy/is-unique-lcci/isUnique';
+export { findNumbers } from './problems/easy/find-numbers-with-even-number-of-digits/findNumbers';
+export { smallerNumbersThanCurrent } from './problems/easy/how-many-numbers-are-smaller-than-the-current-number/smallerNumbersThanCurrent';
 
 export { plusOne } from './problems/easy/plus-one/plusOne';
 export { containsDuplicate } from './problems/easy/contains-duplicate/containsDuplicate';
 export { defangIPaddr } from './problems/easy/defanging-an-ip-address/defangIPaddr';
-export { findNumbers } from './problems/easy/find-numbers-with-even-number-of-digits/findNumbers';
 export { firstUniqChar } from './problems/easy/first-unique-character-in-a-string/firstUniqChar';
 export { game } from './problems/easy/guess-numbers/game';
-export { smallerNumbersThanCurrent } from './problems/easy/how-many-numbers-are-smaller-than-the-current-number/smallerNumbersThanCurrent';
 export { kidsWithCandies } from './problems/easy/kids-with-the-greatest-number-of-candies/kidsWithCandies';
 export { numIdenticalPairs } from './problems/easy/number-of-good-pairs/numIdenticalPairs';
 export { isPalindrome } from './problems/easy/palindrome-number/isPalindrome';
