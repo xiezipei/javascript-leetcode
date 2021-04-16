@@ -12,12 +12,12 @@
  * @returns 
  */
 export function removeElement(nums: number[], val: number): number {
-    const len = nums.length;
-    for (let i = 0; i < len; i++) {
+    const l = nums.length;
+    for (let i = 0; i < l; i++) {
         if (nums[i] === val) {
-            nums.splice(i, 1);
-            i--;
+            nums.splice(i, 1);  // 删除当前元素
+            i--;    // 循环次数减一
         }
     }
-    return nums.length;
+    return nums.length; // 返回最终数组长度
 }
