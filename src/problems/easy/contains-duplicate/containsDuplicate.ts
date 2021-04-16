@@ -19,3 +19,19 @@ export function containsDuplicate(nums: number[]): boolean {
     }
     return result;
 }
+
+/**
+ * 存在重复元素 V2
+ * 
+ * @problem
+ * https://leetcode-cn.com/problems/contains-duplicate/
+ * 
+ * @tag
+ * Array, set
+ * 
+ * @param nums 数字数组
+ * @returns 布尔值
+ */
+ export function containsDuplicateV2(nums: number[]): boolean {
+    return !(nums.length === [...new Set(nums)].length);    // 利用数组去重对比长度
+}

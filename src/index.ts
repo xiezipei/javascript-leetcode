@@ -17,9 +17,10 @@ export { defangIPaddr } from './problems/easy/defanging-an-ip-address/defangIPad
 export { restoreString } from './problems/easy/shuffle-string/restoreString';
 export { toLowerCase } from './problems/easy/to-lower-case/toLowerCase';
 export { isPalindrome } from './problems/easy/palindrome-number/isPalindrome';
-export { containsDuplicate } from './problems/easy/contains-duplicate/containsDuplicate';
-
+export { containsDuplicate, containsDuplicateV2 } from './problems/easy/contains-duplicate/containsDuplicate';
 export { firstUniqChar } from './problems/easy/first-unique-character-in-a-string/firstUniqChar';
+
 export { removeElement } from './problems/easy/remove-element/removeElement';
+
 export { replaceElements } from './problems/easy/replace-elements-with-greatest-element-on-right-side/replaceElements';
 export { singleNumber } from './problems/easy/single-number/singleNumber';
