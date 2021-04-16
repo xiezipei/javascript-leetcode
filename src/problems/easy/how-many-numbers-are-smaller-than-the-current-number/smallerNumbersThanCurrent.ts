@@ -4,6 +4,9 @@
  * @problem
  * https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/
  * 
+ * @tag
+ * Array, map
+ * 
  * @param nums 数字数组
  * @returns 数字数组
  */

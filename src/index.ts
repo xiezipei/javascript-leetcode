@@ -7,8 +7,8 @@ export { sortedSquares } from './problems/easy/squares-of-a-sorted-array/sortedS
 export { isUnique } from './problems/easy/is-unique-lcci/isUnique';
 export { findNumbers } from './problems/easy/find-numbers-with-even-number-of-digits/findNumbers';
 export { smallerNumbersThanCurrent } from './problems/easy/how-many-numbers-are-smaller-than-the-current-number/smallerNumbersThanCurrent';
-
 export { plusOne } from './problems/easy/plus-one/plusOne';
+
 export { containsDuplicate } from './problems/easy/contains-duplicate/containsDuplicate';
 export { defangIPaddr } from './problems/easy/defanging-an-ip-address/defangIPaddr';
 export { firstUniqChar } from './problems/easy/first-unique-character-in-a-string/firstUniqChar';

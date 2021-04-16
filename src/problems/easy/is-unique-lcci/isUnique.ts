@@ -4,6 +4,9 @@
  * @problem
  * https://leetcode-cn.com/problems/is-unique-lcci/
  * 
+ * @tag
+ * Array, set
+ * 
  * @param str 字符串
  * @returns 布尔值
  */
